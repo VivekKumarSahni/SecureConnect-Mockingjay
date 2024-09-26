@@ -1,0 +1,4 @@
+.line::before{
+    content : '\2022' ;
+    line-height: 2.5;
+}

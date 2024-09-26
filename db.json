@@ -1,0 +1,84 @@
+{
+  "auth": [
+    {
+      "deptName": "Agency 1",
+      "govtId": "567567",
+      "address": "Hostel 9A- NIT Silchar",
+      "city": "Silchar",
+      "pinCode": "788010",
+      "state": "Assam",
+      "coordinates": [
+        24.80498,
+        92.77359
+      ],
+      "id": 2
+    },
+    {
+      "deptName": "Agency 2",
+      "govtId": "567567",
+      "address": "Goldighi Mall",
+      "city": "Silchar",
+      "pinCode": "788010",
+      "state": "Assam",
+      "coordinates": [
+        24.82619,
+        92.80031
+      ],
+      "id": 3
+    },
+    {
+      "deptName": "Agency 3",
+      "govtId": "567567",
+      "address": "Goldighi Mall",
+      "city": "Silchar",
+      "pinCode": "788010",
+      "state": "Assam",
+      "coordinates": [
+        24.82371,
+        92.79774
+      ],
+      "id": 3
+    },
+    {
+      "deptName": "Agency 4",
+      "govtId": "21231",
+      "address": "Brotherhood Cafe and Restaurant",
+      "city": "Silchar",
+      "pinCode": "788010",
+      "state": "Assam",
+      "coordinates": [
+        24.83195,
+        92.79998
+      ],
+      "id": 4
+    },
+    {
+      "deptName": "Agency 5",
+      "govtId": "23414",
+      "address": "Assam University",
+      "city": "Silchar",
+      "pinCode": "788010",
+      "state": "Assam",
+      "coordinates": [
+        24.68551,
+        92.75079
+      ],
+      "id": 5
+    },
+    {
+      "deptName": "Agency 6",
+      "govtId": "2342343",
+      "address": "hostel 8",
+      "city": "SILCHAR",
+      "pinCode": "788010",
+      "state": "Assam",
+      "coordinates": [
+        24.75987,
+        92.78827
+      ],
+      "id": 6
+    }
+  ]
+
+  
+}

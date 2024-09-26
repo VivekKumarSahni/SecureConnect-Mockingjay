@@ -1,0 +1,31 @@
+.menu{
+    position: absolute;
+    background:none;
+    /* background-color: #f69090; */
+    display:flex;
+    bottom: 0;
+    justify-content: flex-start;
+    align-items: center;
+    color:white;
+
+}
+.bt{
+    padding-left:1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+}
+.notif{
+    position: absolute;
+    background: none;
+    top:2vh;
+    left:2vw;
+}
+/* .bt:hover { */
+    /* font-size: 30px;  */
+/* } */
+ 
+.dropdownToggle::after {
+    display: none;
+  }
