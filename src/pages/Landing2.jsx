@@ -49,13 +49,13 @@ const AgencyCard = ({ agency }) => (
 
 function Landing2() {
   const [ws, setWs] = useState(null);
-  const [messageData, setMessageData] = useState({});
+  // const [messageData, setMessageData] = useState({});
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(getAllAgencyAsync());
     dispatch(getAllAlerts());
-  }, [dispatch,messageData]);
+  }, [dispatch]);
   useEffect(() => {
     connectToWs();
    
@@ -83,16 +83,13 @@ function Landing2() {
   function handleMessage(e) {
     //from websocket
   //  console.log(e);
-  const updatedMessageData = {
-    ...messageData,
-    timeStamp: e.timeStamp,
-  };
+ 
 
   // Update state with the new messageData
-  setMessageData(updatedMessageData); 
     const msgData = JSON.parse(e.data);
     if ("alert" in msgData){
-      console.log(messageData);
+      dispatch(getAllAlerts());
+      console.log(msgData);
       toast.error(`Alert, Please rush to the emergency location ${msgData.alert}`, {
         position: "top-right",
         autoClose: 5000,
